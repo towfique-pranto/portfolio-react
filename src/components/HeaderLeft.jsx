@@ -1,4 +1,8 @@
 import { IoMdArrowDropright } from "react-icons/io";
+import { IoHomeSharp } from "react-icons/io5";
+import { FaCodeBranch } from "react-icons/fa";
+import { GrCertificate } from "react-icons/gr";
+import { MdContactMail } from "react-icons/md";
 
 const HeaderLeft = () => {
   return (
@@ -20,6 +24,33 @@ const HeaderLeft = () => {
             </li>
           ))}
         </ul>
+      </div>
+      <div className="fixed left-0 right-0 top-0 z-10 flex justify-evenly bg-teal-600 p-5 text-white md:hidden">
+        <a href="#home" className="flex flex-col items-center justify-center">
+          <IoHomeSharp className="text-2xl" />
+          <span className="text-xs">Home</span>
+        </a>
+        <a
+          href="#projects"
+          className="flex flex-col items-center justify-center"
+        >
+          <FaCodeBranch className="text-2xl" />
+          <span className="text-xs">Projects</span>
+        </a>
+        <a
+          href="#certifications"
+          className="flex flex-col items-center justify-center"
+        >
+          <GrCertificate className="text-2xl" />
+          <span className="text-xs">Certifications</span>
+        </a>
+        <a
+          href="#contact"
+          className="flex flex-col items-center justify-center"
+        >
+          <MdContactMail className="text-2xl" />
+          <span className="text-xs">Contact</span>
+        </a>
       </div>
     </div>
   );
