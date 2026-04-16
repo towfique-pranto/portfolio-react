@@ -29,7 +29,6 @@ const Home = () => {
           <FaLinkedin className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
           <SiHackerrank className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
           <SiGmail className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
-          <SiProtonmail className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
         </div>
       </div>
     </div>
