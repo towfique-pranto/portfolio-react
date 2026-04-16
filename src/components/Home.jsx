@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGmail, SiHackerrank, SiProtonmail } from "react-icons/si";
 import image from "../assets/image.jpg";
 
 const Home = () => {
@@ -21,6 +23,13 @@ const Home = () => {
             practical, real-world applications, with a focus on scalability and
             maintainability.
           </p>
+        </div>
+        <div className="flex gap-3">
+          <FaGithub className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
+          <FaLinkedin className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
+          <SiHackerrank className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
+          <SiGmail className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
+          <SiProtonmail className="h-10 w-10 cursor-pointer transition-all hover:scale-110 md:h-12 md:w-12" />
         </div>
       </div>
     </div>
