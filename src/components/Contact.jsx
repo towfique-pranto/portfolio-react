@@ -14,29 +14,29 @@ const Contact = () => {
         <div className="flex flex-col gap-4">
           <input
             type="text"
-            name=""
-            id=""
+            name="firstname"
+            id="firstname"
             placeholder="Your firstname"
             className="rounded-lg border-2 border-[#6ee7b7] px-4 py-3 text-lg outline-none transition-all duration-200 hover:bg-[#dff7ee] focus:ring-2 focus:ring-[#10b981]"
           />
           <input
             type="text"
-            name=""
-            id=""
+            name="lastname"
+            id="lastname"
             placeholder="Your lastname"
             className="rounded-lg border-2 border-[#6ee7b7] px-4 py-3 text-lg outline-none transition-all duration-200 hover:bg-[#dff7ee] focus:ring-2 focus:ring-[#10b981]"
           />
           <input
-            type="text"
-            name=""
-            id=""
+            type="email"
+            name="email"
+            id="email"
             placeholder="Your email"
             className="rounded-lg border-2 border-[#6ee7b7] px-4 py-3 text-lg outline-none transition-all duration-200 hover:bg-[#dff7ee] focus:ring-2 focus:ring-[#10b981]"
           />
         </div>
         <textarea
-          name=""
-          id=""
+          name="message"
+          id="message"
           placeholder="Write your message here..."
           className="h-32 w-full resize-none rounded-lg border-2 border-[#6ee7b7] px-4 py-3 text-lg outline-none transition-all duration-200 hover:bg-[#dff7ee] focus:ring-2 focus:ring-[#10b981]"
         ></textarea>
