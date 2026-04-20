@@ -6,13 +6,13 @@ import { MdContactMail } from "react-icons/md";
 
 const HeaderLeft = () => {
   return (
-    <div className="md:flex-1 max-w-75">
-      <div className="min-h-screen top-0 hidden md:sticky md:flex items-center bg-[#065f46] text-white">
+    <div className="md:flex-1">
+      <div className="min-h-screen top-0 hidden md:sticky md:flex items-center bg-[#065f46] text-white max-w-75 min-w-50">
         <ul className="flex flex-col gap-10">
           {["home", "projects", "certifications", "contact"].map((item) => (
             <li
               key={item}
-              className="flex items-center justify-start cursor-pointer font-medium transition-all duration-200 group sm:text-lg mdLtext-xl"
+              className="flex items-center justify-start cursor-pointer font-medium transition-all duration-200 group sm:text-lg md:text-xl"
             >
               <IoMdArrowDropright className="text-4xl -translate-x-5 opacity-0 transform transition-all duration-200 group-hover:opacity-100 group-hover:translate-x-0" />
               <a

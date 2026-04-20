@@ -7,7 +7,7 @@ const Contact = () => {
       className="flex min-h-screen w-full flex-col items-center justify-center gap-16 p-8"
     >
       <h1 className="text-center text-6xl font-light text-[#047857]">
-        Contact me
+        Get in touch
       </h1>
 
       <form className="flex w-full max-w-md flex-col gap-8 rounded-2xl border border-[#a7f3d0] bg-[#f7fffb] p-6 shadow-[0_18px_45px_rgba(4,120,87,0.12)] md:max-w-lg lg:max-w-xl">
